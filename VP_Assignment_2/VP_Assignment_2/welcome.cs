@@ -30,5 +30,23 @@ namespace VP_Assignment_2
             searchProfile obj = new searchProfile();
             obj.Show();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            deleteRecord obj = new deleteRecord();
+            obj.Show();
+        }
+        private void button4_Click_1(object sender, EventArgs e)
+        {
+            topThree obj = new topThree();
+            obj.Show();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            markAttendance obj = new markAttendance();
+            obj.Show();
+        }
+
     }
 }

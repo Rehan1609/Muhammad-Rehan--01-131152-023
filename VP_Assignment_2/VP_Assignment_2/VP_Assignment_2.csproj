@@ -56,11 +56,23 @@
     <Compile Include="deleteRecord.Designer.cs">
       <DependentUpon>deleteRecord.cs</DependentUpon>
     </Compile>
+    <Compile Include="markAttendance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="markAttendance.Designer.cs">
+      <DependentUpon>markAttendance.cs</DependentUpon>
+    </Compile>
     <Compile Include="searchProfile.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="searchProfile.Designer.cs">
       <DependentUpon>searchProfile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="topThree.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="topThree.Designer.cs">
+      <DependentUpon>topThree.cs</DependentUpon>
     </Compile>
     <Compile Include="welcome.cs">
       <SubType>Form</SubType>
@@ -76,8 +88,14 @@
     <EmbeddedResource Include="deleteRecord.resx">
       <DependentUpon>deleteRecord.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="markAttendance.resx">
+      <DependentUpon>markAttendance.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="searchProfile.resx">
       <DependentUpon>searchProfile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="topThree.resx">
+      <DependentUpon>topThree.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="welcome.resx">
       <DependentUpon>welcome.cs</DependentUpon>

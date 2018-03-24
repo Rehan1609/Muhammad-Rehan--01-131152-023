@@ -39,7 +39,7 @@ namespace VP_Assignment_2
             }
             if (studentID != line)
             {
-                file.Close();
+                //file.Close();
                 string getName = name.Text;
                 string university = uni.Text;
                 string department = dept.Text;

@@ -17,17 +17,13 @@ namespace VP_Assignment_2
         {
             InitializeComponent();
         }
-
+        
         List<string> fill = new List<string>();     //declared globally
         private void button1_Click(object sender, EventArgs e)
         {
-            idlbl.Visible = true;
-            namelbl.Visible = false;
-            smstrlbl.Visible = false;
             button1.Visible = true;
             button2.Visible = false;
             button3.Visible = false;
-
             string id = enterSearch.Text;
             string Path = path.Text;
             string searchID, name, sem, gpa, uni, dept;
@@ -41,6 +37,7 @@ namespace VP_Assignment_2
                 dept = file.ReadLine();
                 sem = file.ReadLine();
                 gpa = file.ReadLine();
+
                 if (id == searchID)
                 {
                     fill.Add(name);
@@ -60,9 +57,6 @@ namespace VP_Assignment_2
 
         private void button2_Click(object sender, EventArgs e)
         {
-            idlbl.Visible = false;
-            namelbl.Visible = true;
-            smstrlbl.Visible = false;
             button1.Visible = false;
             button2.Visible = true;
             button3.Visible = false;
@@ -99,9 +93,6 @@ namespace VP_Assignment_2
 
         private void button3_Click(object sender, EventArgs e)
         {
-            idlbl.Visible = false;
-            namelbl.Visible = false;
-            smstrlbl.Visible = true;
             button1.Visible = false;
             button2.Visible = false;
             button3.Visible = true;

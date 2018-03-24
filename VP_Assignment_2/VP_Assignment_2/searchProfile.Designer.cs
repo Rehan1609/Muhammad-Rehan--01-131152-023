@@ -33,9 +33,6 @@
             this.button3 = new System.Windows.Forms.Button();
             this.enterSearch = new System.Windows.Forms.TextBox();
             this.showList = new System.Windows.Forms.ListBox();
-            this.namelbl = new System.Windows.Forms.Label();
-            this.idlbl = new System.Windows.Forms.Label();
-            this.smstrlbl = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.path = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
@@ -93,45 +90,15 @@
             this.showList.Size = new System.Drawing.Size(159, 130);
             this.showList.TabIndex = 4;
             // 
-            // namelbl
-            // 
-            this.namelbl.AutoSize = true;
-            this.namelbl.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.namelbl.Location = new System.Drawing.Point(93, 71);
-            this.namelbl.Name = "namelbl";
-            this.namelbl.Size = new System.Drawing.Size(45, 18);
-            this.namelbl.TabIndex = 5;
-            this.namelbl.Text = "Name";
-            // 
-            // idlbl
-            // 
-            this.idlbl.AutoSize = true;
-            this.idlbl.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.idlbl.Location = new System.Drawing.Point(93, 71);
-            this.idlbl.Name = "idlbl";
-            this.idlbl.Size = new System.Drawing.Size(21, 18);
-            this.idlbl.TabIndex = 6;
-            this.idlbl.Text = "ID";
-            // 
-            // smstrlbl
-            // 
-            this.smstrlbl.AutoSize = true;
-            this.smstrlbl.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.smstrlbl.Location = new System.Drawing.Point(93, 73);
-            this.smstrlbl.Name = "smstrlbl";
-            this.smstrlbl.Size = new System.Drawing.Size(67, 18);
-            this.smstrlbl.TabIndex = 7;
-            this.smstrlbl.Text = "Semester";
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(50, 71);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(41, 18);
+            this.label1.Size = new System.Drawing.Size(114, 18);
             this.label1.TabIndex = 8;
-            this.label1.Text = "Enter";
+            this.label1.Text = "Enter search data";
             // 
             // path
             // 
@@ -171,16 +138,13 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.path);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.smstrlbl);
-            this.Controls.Add(this.idlbl);
-            this.Controls.Add(this.namelbl);
             this.Controls.Add(this.showList);
             this.Controls.Add(this.enterSearch);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Name = "searchProfile";
-            this.Text = "searchProfile";
+            this.Text = "Search Profile";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -193,9 +157,6 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.TextBox enterSearch;
         private System.Windows.Forms.ListBox showList;
-        private System.Windows.Forms.Label namelbl;
-        private System.Windows.Forms.Label idlbl;
-        private System.Windows.Forms.Label smstrlbl;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox path;
         private System.Windows.Forms.Label label2;
