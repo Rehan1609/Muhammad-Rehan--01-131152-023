@@ -28,31 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.path = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.getID = new System.Windows.Forms.TextBox();
             this.showMsg = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(53, 61);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(146, 19);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "File Path (d:/xyz.txt)";
-            // 
-            // path
-            // 
-            this.path.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.path.Location = new System.Drawing.Point(205, 60);
-            this.path.Name = "path";
-            this.path.Size = new System.Drawing.Size(176, 26);
-            this.path.TabIndex = 1;
             // 
             // label2
             // 
@@ -103,8 +83,6 @@
             this.Controls.Add(this.showMsg);
             this.Controls.Add(this.getID);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.path);
-            this.Controls.Add(this.label1);
             this.Name = "deleteRecord";
             this.Text = "Delete Record";
             this.ResumeLayout(false);
@@ -114,8 +92,6 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox path;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox getID;
         private System.Windows.Forms.Label showMsg;

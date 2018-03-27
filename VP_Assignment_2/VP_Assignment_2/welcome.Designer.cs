@@ -1,6 +1,6 @@
 ﻿namespace VP_Assignment_2
 {
-    partial class welcome
+    partial class Welcome
     {
         /// <summary>
         /// Required designer variable.
@@ -28,105 +28,113 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
+            this.homeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.studentProfileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.createProfileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.searchProfileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.deleteProfileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.topThreeCGPAToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.markAttendanceToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.viewAttendanceToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // label1
+            // homeToolStripMenuItem
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.label1.Location = new System.Drawing.Point(111, 36);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(256, 23);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Welcome to BU Student Profile";
+            this.homeToolStripMenuItem.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.homeToolStripMenuItem.Image = global::VP_Assignment_2.Properties.Resources.images;
+            this.homeToolStripMenuItem.Name = "homeToolStripMenuItem";
+            this.homeToolStripMenuItem.Size = new System.Drawing.Size(73, 23);
+            this.homeToolStripMenuItem.Text = "Home";
+            this.homeToolStripMenuItem.Click += new System.EventHandler(this.homeToolStripMenuItem_Click);
             // 
-            // button1
+            // studentProfileToolStripMenuItem
             // 
-            this.button1.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(50, 110);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(110, 50);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "Create Profile";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.studentProfileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.createProfileToolStripMenuItem,
+            this.searchProfileToolStripMenuItem,
+            this.deleteProfileToolStripMenuItem,
+            this.topThreeCGPAToolStripMenuItem,
+            this.markAttendanceToolStripMenuItem,
+            this.viewAttendanceToolStripMenuItem});
+            this.studentProfileToolStripMenuItem.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.studentProfileToolStripMenuItem.Image = global::VP_Assignment_2.Properties.Resources.student_profile_icon;
+            this.studentProfileToolStripMenuItem.Name = "studentProfileToolStripMenuItem";
+            this.studentProfileToolStripMenuItem.Size = new System.Drawing.Size(131, 23);
+            this.studentProfileToolStripMenuItem.Text = "Student Profile";
             // 
-            // button2
+            // createProfileToolStripMenuItem
             // 
-            this.button2.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(198, 110);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(110, 50);
-            this.button2.TabIndex = 2;
-            this.button2.Text = "Search Profile";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.createProfileToolStripMenuItem.Name = "createProfileToolStripMenuItem";
+            this.createProfileToolStripMenuItem.Size = new System.Drawing.Size(189, 24);
+            this.createProfileToolStripMenuItem.Text = "Create Profile";
+            this.createProfileToolStripMenuItem.Click += new System.EventHandler(this.createProfileToolStripMenuItem_Click);
             // 
-            // button3
+            // searchProfileToolStripMenuItem
             // 
-            this.button3.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(345, 110);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(110, 50);
-            this.button3.TabIndex = 3;
-            this.button3.Text = "Delete Profile";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.searchProfileToolStripMenuItem.Name = "searchProfileToolStripMenuItem";
+            this.searchProfileToolStripMenuItem.Size = new System.Drawing.Size(189, 24);
+            this.searchProfileToolStripMenuItem.Text = "Search Profile";
+            this.searchProfileToolStripMenuItem.Click += new System.EventHandler(this.searchProfileToolStripMenuItem_Click);
             // 
-            // button4
+            // deleteProfileToolStripMenuItem
             // 
-            this.button4.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(50, 220);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(110, 50);
-            this.button4.TabIndex = 4;
-            this.button4.Text = "Top three Students";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click_1);
+            this.deleteProfileToolStripMenuItem.Name = "deleteProfileToolStripMenuItem";
+            this.deleteProfileToolStripMenuItem.Size = new System.Drawing.Size(189, 24);
+            this.deleteProfileToolStripMenuItem.Text = "Delete Profile";
+            this.deleteProfileToolStripMenuItem.Click += new System.EventHandler(this.deleteProfileToolStripMenuItem_Click);
             // 
-            // button5
+            // topThreeCGPAToolStripMenuItem
             // 
-            this.button5.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Location = new System.Drawing.Point(198, 220);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(110, 50);
-            this.button5.TabIndex = 5;
-            this.button5.Text = "Mark Attendance";
-            this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
+            this.topThreeCGPAToolStripMenuItem.Name = "topThreeCGPAToolStripMenuItem";
+            this.topThreeCGPAToolStripMenuItem.Size = new System.Drawing.Size(189, 24);
+            this.topThreeCGPAToolStripMenuItem.Text = "Top Three CGPA";
+            this.topThreeCGPAToolStripMenuItem.Click += new System.EventHandler(this.topThreeCGPAToolStripMenuItem_Click);
             // 
-            // button6
+            // markAttendanceToolStripMenuItem
             // 
-            this.button6.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.Location = new System.Drawing.Point(345, 220);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(110, 50);
-            this.button6.TabIndex = 6;
-            this.button6.Text = "View Attendance";
-            this.button6.UseVisualStyleBackColor = true;
+            this.markAttendanceToolStripMenuItem.Name = "markAttendanceToolStripMenuItem";
+            this.markAttendanceToolStripMenuItem.Size = new System.Drawing.Size(189, 24);
+            this.markAttendanceToolStripMenuItem.Text = "Mark Attendance";
+            this.markAttendanceToolStripMenuItem.Click += new System.EventHandler(this.markAttendanceToolStripMenuItem_Click);
             // 
-            // welcome
+            // viewAttendanceToolStripMenuItem
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.viewAttendanceToolStripMenuItem.Name = "viewAttendanceToolStripMenuItem";
+            this.viewAttendanceToolStripMenuItem.Size = new System.Drawing.Size(189, 24);
+            this.viewAttendanceToolStripMenuItem.Text = "View Attendance";
+            this.viewAttendanceToolStripMenuItem.Click += new System.EventHandler(this.viewAttendanceToolStripMenuItem_Click);
+            // 
+            // menuStrip1
+            // 
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.homeToolStripMenuItem,
+            this.studentProfileToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(8, 3, 0, 3);
+            this.menuStrip1.Size = new System.Drawing.Size(759, 29);
+            this.menuStrip1.TabIndex = 0;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // Welcome
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(492, 329);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.label1);
-            this.Name = "welcome";
-            this.Text = "Warm welcome!";
+            this.ClientSize = new System.Drawing.Size(759, 425);
+            this.Controls.Add(this.menuStrip1);
+            this.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.IsMdiContainer = true;
+            this.MainMenuStrip = this.menuStrip1;
+            this.Margin = new System.Windows.Forms.Padding(4);
+            this.Name = "Welcome";
+            this.Text = "Welcome";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.MdiChildActivate += new System.EventHandler(this.Welcome_MdiChildActivate);
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -134,13 +142,15 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.ToolStripMenuItem homeToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem studentProfileToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem createProfileToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem searchProfileToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem deleteProfileToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem topThreeCGPAToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem markAttendanceToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem viewAttendanceToolStripMenuItem;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+
     }
 }
-

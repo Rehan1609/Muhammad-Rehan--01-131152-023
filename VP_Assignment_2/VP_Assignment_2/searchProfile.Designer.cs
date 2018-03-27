@@ -34,8 +34,6 @@
             this.enterSearch = new System.Windows.Forms.TextBox();
             this.showList = new System.Windows.Forms.ListBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.path = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
             this.showMsg = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
@@ -100,24 +98,6 @@
             this.label1.TabIndex = 8;
             this.label1.Text = "Enter search data";
             // 
-            // path
-            // 
-            this.path.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.path.Location = new System.Drawing.Point(185, 37);
-            this.path.Name = "path";
-            this.path.Size = new System.Drawing.Size(200, 26);
-            this.path.TabIndex = 9;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(50, 37);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(135, 18);
-            this.label2.TabIndex = 10;
-            this.label2.Text = "File Path (D:/xyz.txt)";
-            // 
             // showMsg
             // 
             this.showMsg.AutoSize = true;
@@ -135,8 +115,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(423, 326);
             this.Controls.Add(this.showMsg);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.path);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.showList);
             this.Controls.Add(this.enterSearch);
@@ -158,8 +136,6 @@
         private System.Windows.Forms.TextBox enterSearch;
         private System.Windows.Forms.ListBox showList;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox path;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label showMsg;
 
 

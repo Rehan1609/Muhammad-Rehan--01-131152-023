@@ -17,9 +17,10 @@ namespace VP_Assignment_2
         {
             InitializeComponent();
         }
+        filePath passPath = new filePath();
         private void button1_Click(object sender, EventArgs e)
         {
-            string Path = path.Text;
+            string Path = passPath.mainPath;
             string searchID, name, sem, uni, dept, gpa;
             string line = "";
             int i = 0;
@@ -70,9 +71,14 @@ namespace VP_Assignment_2
                     break;
                 }
             }
-            label4.Text = "" + max1;
-            label5.Text = "" + max2;
-            label6.Text = "" + max3;
+            showMsg.Visible = true;
+            label4.Visible = true;
+            label5.Visible = true;
+            label6.Visible = true;
+            showMsg.Text = "Top three CGPA's";
+            label4.Text = "First: " + max1;
+            label5.Text = "Second: " + max2;
+            label6.Text = "Third: " + max3;
         }
     }
 }

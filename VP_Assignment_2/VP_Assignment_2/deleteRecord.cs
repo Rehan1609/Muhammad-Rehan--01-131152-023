@@ -17,10 +17,10 @@ namespace VP_Assignment_2
         {
             InitializeComponent();
         }
-
+        filePath passPath = new filePath();
         private void button1_Click(object sender, EventArgs e)
         {
-            string Path = path.Text;
+            string Path = passPath.mainPath;
             string id = getID.Text;
             StreamReader file = new StreamReader(Path);
             string line;    //reading integers

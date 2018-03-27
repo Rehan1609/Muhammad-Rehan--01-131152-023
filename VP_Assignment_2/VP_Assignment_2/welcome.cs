@@ -10,43 +10,72 @@ using System.Windows.Forms;
 
 namespace VP_Assignment_2
 {
-    public partial class welcome : Form
+    public partial class Welcome : Form
     {
-        public welcome()
+        public Welcome()
         {
             InitializeComponent();
         }
-
-        private void button1_Click(object sender, EventArgs e)
+        
+         createProfile create = new createProfile(); 
+         searchProfile search = new searchProfile();
+         deleteRecord delete = new deleteRecord();
+         topThree topThree = new topThree();
+         markAttendance mark = new markAttendance();
+       
+        private void Welcome_MdiChildActivate(object sender, EventArgs e)
         {
-            createProfile create = new createProfile();
-            //this.Dispose();
+
+        }
+
+        private void createProfileToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.IsMdiContainer = true;
+            create.MdiParent = this;
             create.Show();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void searchProfileToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
-            searchProfile obj = new searchProfile();
-            obj.Show();
+            this.IsMdiContainer=true;
+            search.MdiParent = this;
+            search.Show();
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void deleteProfileToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            deleteRecord obj = new deleteRecord();
-            obj.Show();
-        }
-        private void button4_Click_1(object sender, EventArgs e)
-        {
-            topThree obj = new topThree();
-            obj.Show();
+            this.IsMdiContainer = true;
+            delete.MdiParent = this;
+            delete.Show();
         }
 
-        private void button5_Click(object sender, EventArgs e)
-        {
-            markAttendance obj = new markAttendance();
-            obj.Show();
+        private void topThreeCGPAToolStripMenuItem_Click(object sender, EventArgs e)
+        { 
+            this.IsMdiContainer = true;
+            topThree.MdiParent = this;
+            topThree.Show();
         }
 
+        private void markAttendanceToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.IsMdiContainer = true;
+            mark.MdiParent = this;
+            mark.Show();
+        }
+
+        private void viewAttendanceToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            //to be done
+        }
+
+        private void homeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            create.Hide();
+            search.Hide();
+            delete.Hide();
+            topThree.Hide();
+            mark.Hide();
+            this.Show();
+        }
     }
 }

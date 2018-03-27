@@ -1,8 +1,6 @@
 c:\users\muhammad rehan\documents\visual studio 2013\Projects\VP_Assignment_2\VP_Assignment_2\bin\Debug\VP_Assignment_2.exe.config
-c:\users\muhammad rehan\documents\visual studio 2013\Projects\VP_Assignment_2\VP_Assignment_2\obj\Debug\VP_Assignment_2.csprojResolveAssemblyReference.cache
 c:\users\muhammad rehan\documents\visual studio 2013\Projects\VP_Assignment_2\VP_Assignment_2\obj\Debug\VP_Assignment_2.createProfile.resources
 c:\users\muhammad rehan\documents\visual studio 2013\Projects\VP_Assignment_2\VP_Assignment_2\obj\Debug\VP_Assignment_2.searchProfile.resources
-c:\users\muhammad rehan\documents\visual studio 2013\Projects\VP_Assignment_2\VP_Assignment_2\obj\Debug\VP_Assignment_2.welcome.resources
 c:\users\muhammad rehan\documents\visual studio 2013\Projects\VP_Assignment_2\VP_Assignment_2\obj\Debug\VP_Assignment_2.Properties.Resources.resources
 c:\users\muhammad rehan\documents\visual studio 2013\Projects\VP_Assignment_2\VP_Assignment_2\obj\Debug\VP_Assignment_2.csproj.GenerateResource.Cache
 c:\users\muhammad rehan\documents\visual studio 2013\Projects\VP_Assignment_2\VP_Assignment_2\bin\Debug\VP_Assignment_2.exe
@@ -12,3 +10,6 @@ c:\users\muhammad rehan\documents\visual studio 2013\Projects\VP_Assignment_2\VP
 C:\Users\Muhammad Rehan\documents\visual studio 2013\Projects\VP_Assignment_2\VP_Assignment_2\obj\Debug\VP_Assignment_2.deleteRecord.resources
 C:\Users\Muhammad Rehan\documents\visual studio 2013\Projects\VP_Assignment_2\VP_Assignment_2\obj\Debug\VP_Assignment_2.topThree.resources
 C:\Users\Muhammad Rehan\documents\visual studio 2013\Projects\VP_Assignment_2\VP_Assignment_2\obj\Debug\VP_Assignment_2.markAttendance.resources
+C:\Users\Muhammad Rehan\documents\visual studio 2013\Projects\VP_Assignment_2\VP_Assignment_2\obj\Debug\VP_Assignment_2.StudentAttendance.resources
+C:\Users\Muhammad Rehan\documents\visual studio 2013\Projects\VP_Assignment_2\VP_Assignment_2\obj\Debug\VP_Assignment_2.Welcome.resources
+C:\Users\Muhammad Rehan\documents\visual studio 2013\Projects\VP_Assignment_2\VP_Assignment_2\obj\Debug\VP_Assignment_2.csprojResolveAssemblyReference.cache

@@ -17,10 +17,10 @@ namespace VP_Assignment_2
         {
             InitializeComponent();
         }
-
+        filePath passPath = new filePath();
         private void createBtn_Click(object sender, EventArgs e)
         {
-            string Path = path.Text;
+            string Path = passPath.mainPath;
             while (File.Exists(Path) != true)
             {
                 error.Text = ("File does not exists (Create file by entereing path (e.g, d:/name.txt)): ");
@@ -34,12 +34,14 @@ namespace VP_Assignment_2
             {
                 if (studentID == line)
                 {
+                    id.Text = null;
+                    studentID = id.Text;
                     error.Text = ("Enter unique id please : ");
                 }
             }
             if (studentID != line)
             {
-                //file.Close();
+                file.Close();
                 string getName = name.Text;
                 string university = uni.Text;
                 string department = dept.Text;
@@ -69,9 +71,6 @@ namespace VP_Assignment_2
                     error.Text = "Wrong CGPA entered! Correct it please";
                 }
             }
-            //welcome obj = new welcome();
-            //this.Dispose();
-            //obj.Show();
         }
     }
 }

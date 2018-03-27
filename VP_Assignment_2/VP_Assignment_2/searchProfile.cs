@@ -17,7 +17,7 @@ namespace VP_Assignment_2
         {
             InitializeComponent();
         }
-        
+        filePath passPath = new filePath();
         List<string> fill = new List<string>();     //declared globally
         private void button1_Click(object sender, EventArgs e)
         {
@@ -25,7 +25,7 @@ namespace VP_Assignment_2
             button2.Visible = false;
             button3.Visible = false;
             string id = enterSearch.Text;
-            string Path = path.Text;
+            string Path = passPath.mainPath;
             string searchID, name, sem, gpa, uni, dept;
             string line;
             StreamReader file = new StreamReader(Path);
@@ -46,6 +46,7 @@ namespace VP_Assignment_2
                     fill.Add(sem);
                     fill.Add(gpa);
                     showList.DataSource = fill;
+                    file.Close();
                     break;
                 }
                 else
@@ -61,7 +62,7 @@ namespace VP_Assignment_2
             button2.Visible = true;
             button3.Visible = false;
             string name = enterSearch.Text;
-            string Path = path.Text;
+            string Path = passPath.mainPath;
             string id, searchName, sem, gpa, uni, dept;
             string line;
             StreamReader file = new StreamReader(Path);
@@ -82,6 +83,7 @@ namespace VP_Assignment_2
                     fill.Add(sem);
                     fill.Add(gpa);
                     showList.DataSource = fill;
+                    file.Close();
                     break;
                 }
                 else
@@ -97,7 +99,7 @@ namespace VP_Assignment_2
             button2.Visible = false;
             button3.Visible = true;
             string sem = enterSearch.Text;
-            string Path = path.Text;
+            string Path = passPath.mainPath;
             string id, Name, searchSem, gpa, uni, dept;
             string line;
             StreamReader file = new StreamReader(Path);
@@ -118,6 +120,7 @@ namespace VP_Assignment_2
                     fill.Add(dept);
                     fill.Add(gpa);
                     showList.DataSource = fill;
+                    file.Close();
                     break;
                 }
                 else
