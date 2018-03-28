@@ -34,6 +34,8 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
+            this.home = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.home)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -50,9 +52,9 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(186, 166);
+            this.button1.Location = new System.Drawing.Point(59, 126);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(100, 26);
+            this.button1.Size = new System.Drawing.Size(265, 45);
             this.button1.TabIndex = 4;
             this.button1.Text = "Show List";
             this.button1.UseVisualStyleBackColor = true;
@@ -102,11 +104,23 @@
             this.label6.Text = "label7";
             this.label6.Visible = false;
             // 
+            // home
+            // 
+            this.home.Image = global::VP_Assignment_2.Properties.Resources.HOME100x100blue_home_icon_png;
+            this.home.Location = new System.Drawing.Point(144, 86);
+            this.home.Name = "home";
+            this.home.Size = new System.Drawing.Size(100, 101);
+            this.home.TabIndex = 10;
+            this.home.TabStop = false;
+            this.home.Visible = false;
+            this.home.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
             // topThree
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(432, 329);
+            this.Controls.Add(this.home);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
@@ -115,6 +129,7 @@
             this.Controls.Add(this.label1);
             this.Name = "topThree";
             this.Text = "topThree";
+            ((System.ComponentModel.ISupportInitialize)(this.home)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -128,5 +143,6 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.PictureBox home;
     }
 }

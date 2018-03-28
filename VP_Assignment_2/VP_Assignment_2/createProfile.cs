@@ -70,7 +70,14 @@ namespace VP_Assignment_2
                 {
                     error.Text = "Wrong CGPA entered! Correct it please";
                 }
+                home.Visible = true;
             }
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            this.Visible = false;
+            Application.Restart();
         }
     }
 }

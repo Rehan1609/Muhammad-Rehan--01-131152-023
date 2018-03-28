@@ -63,9 +63,9 @@ namespace VP_Assignment_2.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap images {
+        internal static System.Drawing.Bitmap _14173_200 {
             get {
-                object obj = ResourceManager.GetObject("images", resourceCulture);
+                object obj = ResourceManager.GetObject("14173-200", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -73,9 +73,59 @@ namespace VP_Assignment_2.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap student_profile_icon {
+        internal static System.Drawing.Bitmap _708264_200 {
             get {
-                object obj = ResourceManager.GetObject("student_profile_icon", resourceCulture);
+                object obj = ResourceManager.GetObject("708264-200", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _736591_200 {
+            get {
+                object obj = ResourceManager.GetObject("736591-200", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _7467_200 {
+            get {
+                object obj = ResourceManager.GetObject("7467-200", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap canva_trash_can_delete_icon__MAB5_Ql2oQg {
+            get {
+                object obj = ResourceManager.GetObject("canva-trash-can-delete-icon--MAB5-Ql2oQg", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap HOME100x100blue_home_icon_png {
+            get {
+                object obj = ResourceManager.GetObject("HOME100x100blue-home-icon-png", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icon_hands_200x200 {
+            get {
+                object obj = ResourceManager.GetObject("icon-hands-200x200", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

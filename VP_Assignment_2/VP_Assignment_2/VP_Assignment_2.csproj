@@ -67,6 +67,11 @@
     <Compile Include="markAttendance.Designer.cs">
       <DependentUpon>markAttendance.cs</DependentUpon>
     </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="searchProfile.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -113,17 +118,13 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <EmbeddedResource Include="Welcome.resx">
       <DependentUpon>Welcome.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="ClassDiagram1.cd" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -138,10 +139,25 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\images.png" />
+    <None Include="Resources\14173-200.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\student_profile_icon.gif" />
+    <None Include="Resources\736591-200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\canva-trash-can-delete-icon--MAB5-Ql2oQg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\708264-200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-hands-200x200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7467-200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HOME100x100blue-home-icon-png.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

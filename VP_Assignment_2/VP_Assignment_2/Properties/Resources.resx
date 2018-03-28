@@ -118,10 +118,25 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="images" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\images.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="736591-200" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\736591-200.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="student_profile_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\student_profile_icon.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="7467-200" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7467-200.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon-hands-200x200" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-hands-200x200.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="708264-200" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\708264-200.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="14173-200" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\14173-200.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="canva-trash-can-delete-icon--MAB5-Ql2oQg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\canva-trash-can-delete-icon--MAB5-Ql2oQg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HOME100x100blue-home-icon-png" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HOME100x100blue-home-icon-png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

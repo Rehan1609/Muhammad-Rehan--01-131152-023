@@ -79,6 +79,14 @@ namespace VP_Assignment_2
             label4.Text = "First: " + max1;
             label5.Text = "Second: " + max2;
             label6.Text = "Third: " + max3;
+            button1.Hide();
+            home.Show();
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            this.Visible = false;
+            Application.Restart();
         }
     }
 }

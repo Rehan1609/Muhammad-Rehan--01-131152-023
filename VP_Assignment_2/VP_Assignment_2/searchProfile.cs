@@ -54,6 +54,8 @@ namespace VP_Assignment_2
                     showMsg.Text = "Record not found! Also check your file path";
                 }
             }
+            button1.Visible = false;
+            home.Show();
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -91,6 +93,8 @@ namespace VP_Assignment_2
                     showMsg.Text = "Record not found! Also check your file path";
                 }
             }
+            button2.Hide();
+            home.Show();
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -128,6 +132,14 @@ namespace VP_Assignment_2
                     showMsg.Text = "Record not found! Also check your file path";
                 }
             }
+            button3.Hide();
+            home.Show();
+        }
+
+        private void home_Click(object sender, EventArgs e)
+        {
+            this.Visible = false;
+            Application.Restart();
         }
     }
 }

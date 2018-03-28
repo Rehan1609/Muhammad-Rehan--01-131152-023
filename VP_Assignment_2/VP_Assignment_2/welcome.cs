@@ -16,66 +16,69 @@ namespace VP_Assignment_2
         {
             InitializeComponent();
         }
-        
-         createProfile create = new createProfile(); 
-         searchProfile search = new searchProfile();
-         deleteRecord delete = new deleteRecord();
-         topThree topThree = new topThree();
-         markAttendance mark = new markAttendance();
-       
-        private void Welcome_MdiChildActivate(object sender, EventArgs e)
-        {
 
-        }
-
-        private void createProfileToolStripMenuItem_Click(object sender, EventArgs e)
+        createProfile create = new createProfile();
+        searchProfile search = new searchProfile();
+        deleteRecord del = new deleteRecord();
+        topThree top = new topThree();
+        markAttendance mark = new markAttendance();
+        private void label1_Click(object sender, EventArgs e)
         {
-            this.IsMdiContainer = true;
-            create.MdiParent = this;
             create.Show();
         }
 
-        private void searchProfileToolStripMenuItem_Click(object sender, EventArgs e)
+        private void pictureBox1_Click(object sender, EventArgs e)
         {
-            this.IsMdiContainer=true;
-            search.MdiParent = this;
+            this.Hide();
+            create.Show();
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            top.Show();
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            top.Show();
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
             search.Show();
         }
 
-        private void deleteProfileToolStripMenuItem_Click(object sender, EventArgs e)
+        private void label2_Click(object sender, EventArgs e)
         {
-            this.IsMdiContainer = true;
-            delete.MdiParent = this;
-            delete.Show();
+            this.Hide();
+            search.Show();
         }
 
-        private void topThreeCGPAToolStripMenuItem_Click(object sender, EventArgs e)
-        { 
-            this.IsMdiContainer = true;
-            topThree.MdiParent = this;
-            topThree.Show();
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            del.Show();
         }
 
-        private void markAttendanceToolStripMenuItem_Click(object sender, EventArgs e)
+        private void label3_Click(object sender, EventArgs e)
         {
-            this.IsMdiContainer = true;
-            mark.MdiParent = this;
+            this.Hide();
+            del.Show();
+        }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+            this.Hide();
             mark.Show();
         }
 
-        private void viewAttendanceToolStripMenuItem_Click(object sender, EventArgs e)
+        private void label5_Click(object sender, EventArgs e)
         {
-            //to be done
-        }
-
-        private void homeToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            create.Hide();
-            search.Hide();
-            delete.Hide();
-            topThree.Hide();
-            mark.Hide();
-            this.Show();
+            this.Hide();
+            mark.Show();
         }
     }
 }

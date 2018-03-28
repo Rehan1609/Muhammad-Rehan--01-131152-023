@@ -43,6 +43,8 @@
             this.label7 = new System.Windows.Forms.Label();
             this.error = new System.Windows.Forms.Label();
             this.createBtn = new System.Windows.Forms.Button();
+            this.home = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.home)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -186,11 +188,23 @@
             this.createBtn.UseVisualStyleBackColor = true;
             this.createBtn.Click += new System.EventHandler(this.createBtn_Click);
             // 
+            // home
+            // 
+            this.home.Image = global::VP_Assignment_2.Properties.Resources.HOME100x100blue_home_icon_png;
+            this.home.Location = new System.Drawing.Point(191, 386);
+            this.home.Name = "home";
+            this.home.Size = new System.Drawing.Size(110, 102);
+            this.home.TabIndex = 15;
+            this.home.TabStop = false;
+            this.home.Visible = false;
+            this.home.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
             // createProfile
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(479, 474);
+            this.ClientSize = new System.Drawing.Size(479, 500);
+            this.Controls.Add(this.home);
             this.Controls.Add(this.createBtn);
             this.Controls.Add(this.error);
             this.Controls.Add(this.label7);
@@ -208,6 +222,7 @@
             this.Controls.Add(this.label1);
             this.Name = "createProfile";
             this.Text = "Create Profile";
+            ((System.ComponentModel.ISupportInitialize)(this.home)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -230,5 +245,6 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label error;
         private System.Windows.Forms.Button createBtn;
+        private System.Windows.Forms.PictureBox home;
     }
 }

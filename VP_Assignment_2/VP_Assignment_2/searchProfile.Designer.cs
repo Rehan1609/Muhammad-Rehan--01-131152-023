@@ -35,6 +35,8 @@
             this.showList = new System.Windows.Forms.ListBox();
             this.label1 = new System.Windows.Forms.Label();
             this.showMsg = new System.Windows.Forms.Label();
+            this.home = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.home)).BeginInit();
             this.SuspendLayout();
             // 
             // button1
@@ -109,11 +111,23 @@
             this.showMsg.TabIndex = 11;
             this.showMsg.Text = ".";
             // 
+            // home
+            // 
+            this.home.Image = global::VP_Assignment_2.Properties.Resources.HOME100x100blue_home_icon_png;
+            this.home.Location = new System.Drawing.Point(250, 197);
+            this.home.Name = "home";
+            this.home.Size = new System.Drawing.Size(105, 110);
+            this.home.TabIndex = 12;
+            this.home.TabStop = false;
+            this.home.Visible = false;
+            this.home.Click += new System.EventHandler(this.home_Click);
+            // 
             // searchProfile
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(423, 326);
+            this.ClientSize = new System.Drawing.Size(423, 333);
+            this.Controls.Add(this.home);
             this.Controls.Add(this.showMsg);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.showList);
@@ -123,6 +137,7 @@
             this.Controls.Add(this.button1);
             this.Name = "searchProfile";
             this.Text = "Search Profile";
+            ((System.ComponentModel.ISupportInitialize)(this.home)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -137,6 +152,7 @@
         private System.Windows.Forms.ListBox showList;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label showMsg;
+        private System.Windows.Forms.PictureBox home;
 
 
     }
