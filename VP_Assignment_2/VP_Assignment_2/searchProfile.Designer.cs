@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(searchProfile));
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
@@ -36,6 +37,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.showMsg = new System.Windows.Forms.Label();
             this.home = new System.Windows.Forms.PictureBox();
+            this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.home)).BeginInit();
             this.SuspendLayout();
             // 
@@ -122,11 +124,23 @@
             this.home.Visible = false;
             this.home.Click += new System.EventHandler(this.home_Click);
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(27, 29);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(164, 26);
+            this.label2.TabIndex = 13;
+            this.label2.Text = "Search Record";
+            // 
             // searchProfile
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.ClientSize = new System.Drawing.Size(423, 333);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.home);
             this.Controls.Add(this.showMsg);
             this.Controls.Add(this.label1);
@@ -135,6 +149,7 @@
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "searchProfile";
             this.Text = "Search Profile";
             ((System.ComponentModel.ISupportInitialize)(this.home)).EndInit();
@@ -153,6 +168,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label showMsg;
         private System.Windows.Forms.PictureBox home;
+        private System.Windows.Forms.Label label2;
 
 
     }

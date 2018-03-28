@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(deleteRecord));
             this.label2 = new System.Windows.Forms.Label();
             this.getID = new System.Windows.Forms.TextBox();
             this.showMsg = new System.Windows.Forms.Label();
@@ -91,12 +92,14 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.ClientSize = new System.Drawing.Size(408, 246);
             this.Controls.Add(this.home);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.showMsg);
             this.Controls.Add(this.getID);
             this.Controls.Add(this.label2);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "deleteRecord";
             this.Text = "Delete Record";
             ((System.ComponentModel.ISupportInitialize)(this.home)).EndInit();

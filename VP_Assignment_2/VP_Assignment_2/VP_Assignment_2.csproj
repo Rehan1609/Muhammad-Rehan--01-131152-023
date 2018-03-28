@@ -35,6 +35,9 @@
     <StartupObject>
     </StartupObject>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>1301_290216.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -158,6 +161,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\HOME100x100blue-home-icon-png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="1301_290216.ico" />
+    <Content Include="students-512.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

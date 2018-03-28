@@ -17,19 +17,18 @@ namespace VP_Assignment_2
         {
             InitializeComponent();
         }
-        filePath passPath = new filePath();
-        private void button1_Click(object sender, EventArgs e)
+        static filePath passPath = new filePath();  //path class
+        static string getFileData = passPath.mainPath;  //main file
+        static string storeAttendance = passPath.attendancePath;    //attendance file
+        StreamReader file = new StreamReader(getFileData);      //read file Data
+        StreamWriter write = File.AppendText(storeAttendance);  //Writing attendance file
+        string id, name, sem, gpa, uni, dept;
+        string line;
+
+        public void markingAttendance()
         {
-            System.Windows.Forms.Label labels = new System.Windows.Forms.Label();
-            string getFileData = passPath.mainPath;
-            string storeAttendance = passPath.attendancePath;
             string semester = readSemester.Text;
             //Code to be pasted for names
-            string id, name, sem, gpa, uni, dept;
-            string line;
-            string att = "";  //attendance variable
-            StreamReader file = new StreamReader(getFileData);
-            StreamWriter write = File.AppendText(storeAttendance);
             while ((line = file.ReadLine()) != null)
             {
                 id = line;
@@ -41,16 +40,49 @@ namespace VP_Assignment_2
 
                 if (sem == semester)
                 {
-                    int[] x = new int[1000];
-                    for (int i = 0; i < x.Length; i++)  // input equals to name count. jitny naam utni input k liy.
+                    int[] countName = new int[1000];
+                    for (int i = 0; i < countName.Length;)
                     {
-                        x[i] = name.Count();    //name count.
-                        textBox1.Text = name;
-                        
+                        countName[i] = name.Count();    //Counting names to take inputs wrt names count 
+                        groupBox1.Text = name;
+                        i++;
+                        write.Flush();
+                        break;
                     }
                 }
-                label7.Text = "Students of " + semester + " semester";
+                else
+                {
+                    showMsg.Text = "Record not found";
+                }
             }
+        }
+        private void button1_Click(object sender, EventArgs e)
+        {
+            markingAttendance();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            showMsg.Text = sem;
+        }
+
+        private void readSemester_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void present_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void absent_CheckedChanged(object sender, EventArgs e)
+        {
         }
     }
 }
