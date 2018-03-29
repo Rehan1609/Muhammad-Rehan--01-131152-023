@@ -121,14 +121,14 @@
   <data name="736591-200" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\736591-200.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="HOME100x100blue-home-icon-png" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HOME100x100blue-home-icon-png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="7467-200" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\7467-200.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icon-hands-200x200" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icon-hands-200x200.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="708264-200" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\708264-200.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="14173-200" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\14173-200.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -136,7 +136,13 @@
   <data name="canva-trash-can-delete-icon--MAB5-Ql2oQg" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\canva-trash-can-delete-icon--MAB5-Ql2oQg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="HOME100x100blue-home-icon-png" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\HOME100x100blue-home-icon-png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="delete-sign" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\delete-sign.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="708264-200" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\708264-200.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="close-128" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\close-128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

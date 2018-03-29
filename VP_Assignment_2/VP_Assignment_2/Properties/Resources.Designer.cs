@@ -113,6 +113,26 @@ namespace VP_Assignment_2.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap close_128 {
+            get {
+                object obj = ResourceManager.GetObject("close-128", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap delete_sign {
+            get {
+                object obj = ResourceManager.GetObject("delete-sign", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap HOME100x100blue_home_icon_png {
             get {
                 object obj = ResourceManager.GetObject("HOME100x100blue-home-icon-png", resourceCulture);

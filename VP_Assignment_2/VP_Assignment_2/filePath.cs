@@ -8,7 +8,7 @@ namespace VP_Assignment_2
 {
     public class filePath
     {
-        public string mainPath = "rehan.txt";
-        public string attendancePath = "attend.txt";
+        public string mainPath = @"rehan.txt";
+        public string attendancePath = @"attend.txt";
     }
 }

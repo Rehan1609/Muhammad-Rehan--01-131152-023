@@ -60,9 +60,13 @@ namespace VP_Assignment_2
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            this.Visible = false;
-            MessageBox.Show("Watch your Taskbar down below!");
+            this.Dispose();
             Application.Restart();
+        }
+
+        private void pictureBox1_Click_1(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

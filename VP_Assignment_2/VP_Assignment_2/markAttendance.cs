@@ -17,18 +17,21 @@ namespace VP_Assignment_2
         {
             InitializeComponent();
         }
+        //Variables Decalaration
         static filePath passPath = new filePath();  //path class
         static string getFileData = passPath.mainPath;  //main file
         static string storeAttendance = passPath.attendancePath;    //attendance file
         StreamReader file = new StreamReader(getFileData);      //read file Data
         StreamWriter write = File.AppendText(storeAttendance);  //Writing attendance file
         string id, name, sem, gpa, uni, dept;
-        string line;
-
-        public void markingAttendance()
+        string line="";
+        private void button1_Click(object sender, EventArgs e)
         {
+            button1.Text = "Mark Attendance";
             string semester = readSemester.Text;
-            //Code to be pasted for names
+            groupBox1.Show();
+            radioButton1.Show();
+            radioButton2.Show();
             while ((line = file.ReadLine()) != null)
             {
                 id = line;
@@ -41,48 +44,44 @@ namespace VP_Assignment_2
                 if (sem == semester)
                 {
                     int[] countName = new int[1000];
-                    for (int i = 0; i < countName.Length;)
+                    for (int i = 0; i < countName.Length; )
                     {
-                        countName[i] = name.Count();    //Counting names to take inputs wrt names count 
-                        groupBox1.Text = name;
+                        countName[i] = name.Count();   //Counting names to take inputs wrt names count 
+                        write.WriteLine(semester);
+                        write.WriteLine(name);
+                        groupBox1.Text = name;  //Printing name on GroupBox
+                        if (radioButton1.Checked == true)
+                        {
+                            write.WriteLine("Present");
+                        }
+                        else
+                        {
+                            write.WriteLine("Absent");
+                        }
                         i++;
-                        write.Flush();
-                        break;
+                        return;
                     }
                 }
                 else
                 {
-                    showMsg.Text = "Record not found";
+                    this.Dispose();
+                    showMsg.Text = "Record not found for semester " + semester;
                 }
             }
         }
-        private void button1_Click(object sender, EventArgs e)
-        {
-            markingAttendance();
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            showMsg.Text = sem;
-        }
-
-        private void readSemester_TextChanged(object sender, EventArgs e)
+        private void radioButton1_CheckedChanged(object sender, EventArgs e)
         {
 
         }
 
-        private void groupBox1_Enter(object sender, EventArgs e)
+        private void radioButton2_CheckedChanged(object sender, EventArgs e)
         {
 
         }
 
-        private void present_CheckedChanged(object sender, EventArgs e)
+        private void pictureBox1_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void absent_CheckedChanged(object sender, EventArgs e)
-        {
+            Application.Exit();
         }
     }
 }

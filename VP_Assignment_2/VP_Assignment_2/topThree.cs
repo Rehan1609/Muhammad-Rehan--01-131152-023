@@ -76,18 +76,22 @@ namespace VP_Assignment_2
             label5.Visible = true;
             label6.Visible = true;
             showMsg.Text = "Top three CGPA's";
-            label4.Text = "First: " + max1;
-            label5.Text = "Second: " + max2;
-            label6.Text = "Third: " + max3;
+            label4.Text = "First: " + max1.ToString();
+            label5.Text = "Second: " + max2.ToString();
+            label6.Text = "Third: " + max3.ToString();
             button1.Hide();
             home.Show();
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            this.Visible = false;
-            MessageBox.Show("Watch your Taskbar down below!");
+            this.Dispose();
             Application.Restart();
+        }
+
+        private void pictureBox1_Click_1(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

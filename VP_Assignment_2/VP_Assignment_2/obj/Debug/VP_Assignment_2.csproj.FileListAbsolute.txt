@@ -10,6 +10,6 @@ c:\users\muhammad rehan\documents\visual studio 2013\Projects\VP_Assignment_2\VP
 C:\Users\Muhammad Rehan\documents\visual studio 2013\Projects\VP_Assignment_2\VP_Assignment_2\obj\Debug\VP_Assignment_2.deleteRecord.resources
 C:\Users\Muhammad Rehan\documents\visual studio 2013\Projects\VP_Assignment_2\VP_Assignment_2\obj\Debug\VP_Assignment_2.topThree.resources
 C:\Users\Muhammad Rehan\documents\visual studio 2013\Projects\VP_Assignment_2\VP_Assignment_2\obj\Debug\VP_Assignment_2.markAttendance.resources
-C:\Users\Muhammad Rehan\documents\visual studio 2013\Projects\VP_Assignment_2\VP_Assignment_2\obj\Debug\VP_Assignment_2.StudentAttendance.resources
 C:\Users\Muhammad Rehan\documents\visual studio 2013\Projects\VP_Assignment_2\VP_Assignment_2\obj\Debug\VP_Assignment_2.Welcome.resources
-C:\Users\Muhammad Rehan\documents\visual studio 2013\Projects\VP_Assignment_2\VP_Assignment_2\obj\Debug\VP_Assignment_2.csprojResolveAssemblyReference.cache
+C:\Users\Muhammad Rehan\Documents\Visual Studio 2013\Projects\VP_Assignment_2\VP_Assignment_2\obj\Debug\VP_Assignment_2.ViewAttendance.resources
+C:\Users\Muhammad Rehan\Documents\Visual Studio 2013\Projects\VP_Assignment_2\VP_Assignment_2\obj\Debug\VP_Assignment_2.csprojResolveAssemblyReference.cache

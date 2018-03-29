@@ -17,7 +17,12 @@ namespace VP_Assignment_2
         {
             InitializeComponent();
         }
-        filePath passPath = new filePath();
+        static filePath passPath = new filePath(); 
+        StreamReader file = new StreamReader(passPath.mainPath);
+        string studentID,getName, university, department;
+        int smstr;
+        float getCGPA;
+        string line = "";
         private void createBtn_Click(object sender, EventArgs e)
         {
             string Path = passPath.mainPath;
@@ -27,39 +32,29 @@ namespace VP_Assignment_2
                 StreamWriter makefile = new StreamWriter(Path);
                 makefile.Close();
             }
-            string studentID = id.Text;
-            string line = "";
-            StreamReader file = new StreamReader(Path);
-            while ((line = file.ReadLine()) != null)
-            {
-                if (studentID == line)
-                {
-                    id.Text = null;
-                    studentID = id.Text;
-                    error.Text = ("Enter unique id please : ");
-                }
-            }
+            studentID = id.Text;
             if (studentID != line)
             {
                 file.Close();
-                string getName = name.Text;
-                string university = uni.Text;
-                string department = dept.Text;
-                int smstr = int.Parse(sem.Text);
+                getName = name.Text;
+                university = uni.Text;
+                department = dept.Text;
+                smstr = int.Parse(sem.Text);
                 if (smstr > 0 && smstr <= 12)
                 {
-                    float getCGPA = float.Parse(cgpa.Text);
+                    getCGPA = float.Parse(cgpa.Text);
                     if (getCGPA > 0 && getCGPA <= 4)
                     {
                         StreamWriter write = File.AppendText(Path);
                         write.WriteLine(studentID);
-                        write.WriteLine(getName);
-                        write.WriteLine(university);
+                        write.WriteLine(getName.Trim());
+                        write.WriteLine(university.Trim());
                         write.WriteLine(department);
                         write.WriteLine(smstr);
                         write.WriteLine(getCGPA);
                         write.Flush();
                         error.Text = ("Data has been successfully inserted in " + Path);
+                        write.Close();
                     }
                     else
                     {
@@ -70,15 +65,32 @@ namespace VP_Assignment_2
                 {
                     error.Text = "Wrong CGPA entered! Correct it please";
                 }
-                home.Visible = true;
             }
+            home.Visible = true;
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            this.Visible = false;
-            MessageBox.Show("Watch your Taskbar down below!");
+            this.Dispose();
             Application.Restart();
+        }
+
+        private void pictureBox1_Click_1(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void name_TextChanged(object sender, EventArgs e)
+        {
+            string line="";
+            while ((line = file.ReadLine()) != null)
+            {
+                if (id.Text == line)
+                {
+                    studentID = id.Text;
+                    error.Text = ("Enter unique id please : ");
+                }
+            }
         }
     }
 }

@@ -38,12 +38,14 @@
             this.showMsg = new System.Windows.Forms.Label();
             this.home = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.home)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // button1
             // 
-            this.button1.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(63, 114);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 37);
@@ -54,7 +56,7 @@
             // 
             // button2
             // 
-            this.button2.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.Location = new System.Drawing.Point(147, 114);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(118, 37);
@@ -65,7 +67,7 @@
             // 
             // button3
             // 
-            this.button3.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.Location = new System.Drawing.Point(271, 114);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(115, 37);
@@ -76,7 +78,7 @@
             // 
             // enterSearch
             // 
-            this.enterSearch.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.enterSearch.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.enterSearch.Location = new System.Drawing.Point(185, 71);
             this.enterSearch.Name = "enterSearch";
             this.enterSearch.Size = new System.Drawing.Size(200, 26);
@@ -84,28 +86,28 @@
             // 
             // showList
             // 
-            this.showList.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.showList.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.showList.FormattingEnabled = true;
-            this.showList.ItemHeight = 18;
+            this.showList.ItemHeight = 19;
             this.showList.Location = new System.Drawing.Point(53, 196);
             this.showList.Name = "showList";
-            this.showList.Size = new System.Drawing.Size(159, 130);
+            this.showList.Size = new System.Drawing.Size(159, 118);
             this.showList.TabIndex = 4;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(50, 71);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(114, 18);
+            this.label1.Size = new System.Drawing.Size(127, 19);
             this.label1.TabIndex = 8;
             this.label1.Text = "Enter search data";
             // 
             // showMsg
             // 
             this.showMsg.AutoSize = true;
-            this.showMsg.Font = new System.Drawing.Font("Calibri", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.showMsg.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.showMsg.ForeColor = System.Drawing.Color.Red;
             this.showMsg.Location = new System.Drawing.Point(60, 165);
             this.showMsg.Name = "showMsg";
@@ -130,16 +132,27 @@
             this.label2.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(27, 29);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(164, 26);
+            this.label2.Size = new System.Drawing.Size(171, 26);
             this.label2.TabIndex = 13;
-            this.label2.Text = "Search Record";
+            this.label2.Text = "Search Record!";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::VP_Assignment_2.Properties.Resources.close_128;
+            this.pictureBox1.Location = new System.Drawing.Point(440, 2);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(121, 121);
+            this.pictureBox1.TabIndex = 14;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // searchProfile
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.ClientSize = new System.Drawing.Size(423, 333);
+            this.ClientSize = new System.Drawing.Size(562, 333);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.home);
             this.Controls.Add(this.showMsg);
@@ -149,10 +162,12 @@
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "searchProfile";
             this.Text = "Search Profile";
             ((System.ComponentModel.ISupportInitialize)(this.home)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -169,6 +184,7 @@
         private System.Windows.Forms.Label showMsg;
         private System.Windows.Forms.PictureBox home;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.PictureBox pictureBox1;
 
 
     }
