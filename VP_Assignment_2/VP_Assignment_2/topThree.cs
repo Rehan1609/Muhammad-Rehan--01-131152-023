@@ -76,9 +76,9 @@ namespace VP_Assignment_2
             label5.Visible = true;
             label6.Visible = true;
             showMsg.Text = "Top three CGPA's";
-            label4.Text = "First:\t" + max1.ToString();
-            label5.Text = "Second:\t" + max2.ToString();
-            label6.Text = "Third:\t" + max3.ToString();
+            label4.Text = "First:     " + max1.ToString();
+            label5.Text = "Second:  " + max2.ToString();
+            label6.Text = "Third:     " + max3.ToString();
             file.Close();
         }
 
