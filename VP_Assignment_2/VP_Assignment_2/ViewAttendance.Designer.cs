@@ -62,11 +62,11 @@
             // button1
             // 
             this.button1.BackColor = System.Drawing.SystemColors.Desktop;
-            this.button1.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button1.Location = new System.Drawing.Point(360, 197);
+            this.button1.Location = new System.Drawing.Point(351, 201);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(136, 32);
+            this.button1.Size = new System.Drawing.Size(163, 53);
             this.button1.TabIndex = 2;
             this.button1.Text = "View Attendance";
             this.button1.UseVisualStyleBackColor = false;
@@ -85,7 +85,7 @@
             // showAttendance
             // 
             this.showAttendance.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.showAttendance.Location = new System.Drawing.Point(266, 260);
+            this.showAttendance.Location = new System.Drawing.Point(351, 314);
             this.showAttendance.Multiline = true;
             this.showAttendance.Name = "showAttendance";
             this.showAttendance.ReadOnly = true;
@@ -98,7 +98,7 @@
             // 
             this.viewList.AutoSize = true;
             this.viewList.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.viewList.Location = new System.Drawing.Point(222, 236);
+            this.viewList.Location = new System.Drawing.Point(211, 274);
             this.viewList.Name = "viewList";
             this.viewList.Size = new System.Drawing.Size(18, 26);
             this.viewList.TabIndex = 6;
@@ -128,7 +128,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(665, 512);
+            this.ClientSize = new System.Drawing.Size(665, 558);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.viewList);

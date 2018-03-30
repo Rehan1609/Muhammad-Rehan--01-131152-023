@@ -96,6 +96,7 @@
             this.name.Name = "name";
             this.name.Size = new System.Drawing.Size(188, 29);
             this.name.TabIndex = 4;
+            this.name.TextChanged += new System.EventHandler(this.name_TextChanged);
             // 
             // label4
             // 
@@ -185,9 +186,9 @@
             this.createBtn.BackColor = System.Drawing.SystemColors.Desktop;
             this.createBtn.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.createBtn.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.createBtn.Location = new System.Drawing.Point(197, 468);
+            this.createBtn.Location = new System.Drawing.Point(197, 452);
             this.createBtn.Name = "createBtn";
-            this.createBtn.Size = new System.Drawing.Size(110, 30);
+            this.createBtn.Size = new System.Drawing.Size(156, 46);
             this.createBtn.TabIndex = 14;
             this.createBtn.Text = "Create Now!";
             this.createBtn.UseVisualStyleBackColor = false;

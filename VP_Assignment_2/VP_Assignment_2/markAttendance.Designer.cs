@@ -50,7 +50,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.label2.Location = new System.Drawing.Point(193, 92);
+            this.label2.Location = new System.Drawing.Point(195, 51);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(242, 31);
             this.label2.TabIndex = 1;
@@ -92,7 +92,7 @@
             this.groupBox1.Controls.Add(this.radioButton2);
             this.groupBox1.Controls.Add(this.radioButton1);
             this.groupBox1.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(398, 318);
+            this.groupBox1.Location = new System.Drawing.Point(402, 343);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(200, 100);
             this.groupBox1.TabIndex = 22;
@@ -142,12 +142,11 @@
             // 
             this.showMsg.AutoSize = true;
             this.showMsg.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.showMsg.Location = new System.Drawing.Point(49, 294);
+            this.showMsg.Location = new System.Drawing.Point(38, 293);
             this.showMsg.Name = "showMsg";
             this.showMsg.Size = new System.Drawing.Size(18, 26);
             this.showMsg.TabIndex = 24;
             this.showMsg.Text = ".";
-            this.showMsg.Visible = false;
             // 
             // pictureBox1
             // 

@@ -94,10 +94,11 @@
             // 
             this.showList.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.showList.FormattingEnabled = true;
+            this.showList.HorizontalScrollbar = true;
             this.showList.ItemHeight = 22;
-            this.showList.Location = new System.Drawing.Point(328, 247);
+            this.showList.Location = new System.Drawing.Point(232, 287);
             this.showList.Name = "showList";
-            this.showList.Size = new System.Drawing.Size(159, 158);
+            this.showList.Size = new System.Drawing.Size(238, 158);
             this.showList.TabIndex = 4;
             // 
             // label1
@@ -156,7 +157,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.ClientSize = new System.Drawing.Size(562, 428);
+            this.ClientSize = new System.Drawing.Size(562, 457);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.home);

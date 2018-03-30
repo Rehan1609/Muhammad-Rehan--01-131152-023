@@ -40,11 +40,11 @@ namespace VP_Assignment_2
 
                 if (id == searchID)
                 {
-                    fill.Add(name);
-                    fill.Add(uni);
-                    fill.Add(dept);
-                    fill.Add(sem);
-                    fill.Add(gpa);
+                    fill.Add("ID:\t\t" + id);
+                    fill.Add("Name:\t\t" + Name);
+                    fill.Add("University:\t" + uni);
+                    fill.Add("Department:\t" + dept);
+                    fill.Add("CGPA:\t\t" + gpa);
                     showList.DataSource = fill;
                     file.Close();
                     break;
@@ -79,11 +79,11 @@ namespace VP_Assignment_2
 
                 if (name == searchName)
                 {
-                    fill.Add(id);
-                    fill.Add(uni);
-                    fill.Add(dept);
-                    fill.Add(sem);
-                    fill.Add(gpa);
+                    fill.Add("ID:\t\t" + id);
+                    fill.Add("Name:\t\t" + Name);
+                    fill.Add("University:\t" + uni);
+                    fill.Add("Department:\t" + dept);
+                    fill.Add("CGPA:\t\t" + gpa);
                     showList.DataSource = fill;
                     file.Close();
                     break;
@@ -118,11 +118,11 @@ namespace VP_Assignment_2
 
                 if (sem == searchSem)
                 {
-                    fill.Add(id);
-                    fill.Add(Name);
-                    fill.Add(uni);
-                    fill.Add(dept);
-                    fill.Add(gpa);
+                    fill.Add("ID:\t\t" + id);
+                    fill.Add("Name:\t\t" + Name);
+                    fill.Add("University:\t" + uni);
+                    fill.Add("Department:\t" + dept);
+                    fill.Add("CGPA:\t\t" + gpa);
                     showList.DataSource = fill;
                     file.Close();
                     break;

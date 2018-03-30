@@ -58,7 +58,7 @@ namespace VP_Assignment_2
                             write.WriteLine("Absent");
                         }
                         i++;
-                       write.Flush();
+                        write.Flush();
                         return;
                     }
                 }

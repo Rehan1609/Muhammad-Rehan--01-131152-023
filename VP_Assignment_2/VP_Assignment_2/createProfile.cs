@@ -32,7 +32,7 @@ namespace VP_Assignment_2
                 StreamWriter makefile = new StreamWriter(Path);
                 makefile.Close();
             }
-            studentID = id.Text;
+            //studentID = id.Text;
             if (studentID != line)
             {
                 file.Close();
@@ -81,13 +81,13 @@ namespace VP_Assignment_2
 
         private void name_TextChanged(object sender, EventArgs e)
         {
-            string line="";
+            string line = "";
+            studentID = id.Text;
             while ((line = file.ReadLine()) != null)
             {
-                if (id.Text == line)
+                if (studentID == line)
                 {
-                    studentID = id.Text;
-                    error.Text = ("Enter unique id please : ");
+                    MessageBox.Show("Please enter unique id");
                 }
             }
         }

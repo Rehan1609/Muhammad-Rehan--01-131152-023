@@ -71,15 +71,15 @@ namespace VP_Assignment_2
                     break;
                 }
             }
-            file.Close();
             showMsg.Visible = true;
             label4.Visible = true;
             label5.Visible = true;
             label6.Visible = true;
             showMsg.Text = "Top three CGPA's";
-            label4.Text = "First: " + max1.ToString();
-            label5.Text = "Second: " + max2.ToString();
-            label6.Text = "Third: " + max3.ToString();
+            label4.Text = "First:\t" + max1.ToString();
+            label5.Text = "Second:\t" + max2.ToString();
+            label6.Text = "Third:\t" + max3.ToString();
+            file.Close();
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
