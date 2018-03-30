@@ -132,8 +132,6 @@ namespace VP_Assignment_2
                     showMsg.Text = "Record not found! Also check your file path";
                 }
             }
-            button3.Hide();
-            home.Show();
         }
 
         private void home_Click(object sender, EventArgs e)

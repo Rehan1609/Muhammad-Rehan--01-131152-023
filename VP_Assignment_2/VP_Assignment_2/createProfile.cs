@@ -53,7 +53,7 @@ namespace VP_Assignment_2
                         write.WriteLine(smstr);
                         write.WriteLine(getCGPA);
                         write.Flush();
-                        error.Text = ("Data has been successfully inserted in " + Path);
+                        error.Text = ("Your data has been successfully inserted in ");
                         write.Close();
                     }
                     else
@@ -66,7 +66,6 @@ namespace VP_Assignment_2
                     error.Text = "Wrong CGPA entered! Correct it please";
                 }
             }
-            home.Visible = true;
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)

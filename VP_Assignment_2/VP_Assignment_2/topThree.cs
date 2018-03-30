@@ -71,6 +71,7 @@ namespace VP_Assignment_2
                     break;
                 }
             }
+            file.Close();
             showMsg.Visible = true;
             label4.Visible = true;
             label5.Visible = true;
@@ -79,8 +80,6 @@ namespace VP_Assignment_2
             label4.Text = "First: " + max1.ToString();
             label5.Text = "Second: " + max2.ToString();
             label6.Text = "Third: " + max3.ToString();
-            button1.Hide();
-            home.Show();
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)

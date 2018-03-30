@@ -55,7 +55,6 @@ namespace VP_Assignment_2
                 newfile.Close();//edited
             }
             showMsg.Text="Record has been deleted successfully";
-            home.Show();
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)

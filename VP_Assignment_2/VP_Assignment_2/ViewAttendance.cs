@@ -41,8 +41,6 @@ namespace VP_Assignment_2
                 {
                     viewList.Text = "No Record Found for semester " + semester;
                 }
-                button1.Hide();
-                home.Show();
             }
         }
         private void pictureBox1_Click(object sender, EventArgs e)

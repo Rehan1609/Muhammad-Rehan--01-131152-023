@@ -46,7 +46,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label1.Location = new System.Drawing.Point(55, 36);
+            this.label1.Location = new System.Drawing.Point(108, 87);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(263, 24);
             this.label1.TabIndex = 0;
@@ -55,7 +55,7 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(77, 125);
+            this.button1.Location = new System.Drawing.Point(109, 143);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(265, 45);
             this.button1.TabIndex = 4;
@@ -110,12 +110,11 @@
             // home
             // 
             this.home.Image = global::VP_Assignment_2.Properties.Resources.HOME100x100blue_home_icon_png;
-            this.home.Location = new System.Drawing.Point(139, 96);
+            this.home.Location = new System.Drawing.Point(2, 0);
             this.home.Name = "home";
-            this.home.Size = new System.Drawing.Size(100, 101);
+            this.home.Size = new System.Drawing.Size(100, 102);
             this.home.TabIndex = 10;
             this.home.TabStop = false;
-            this.home.Visible = false;
             this.home.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // pictureBox1
@@ -145,6 +144,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "topThree";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "topThree";
             ((System.ComponentModel.ISupportInitialize)(this.home)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

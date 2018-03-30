@@ -42,7 +42,7 @@ namespace VP_Assignment_2
 
                 if (sem == semester)
                 {
-                    int[] countName = new int[1000];
+                    double[] countName = new double[1000];
                     for (int i = 0; i < countName.Length; )
                     {
                         countName[i] = name.Count();   //Counting names to take inputs wrt names count 
@@ -81,6 +81,11 @@ namespace VP_Assignment_2
         private void pictureBox1_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            Application.Restart();
         }
     }
 }

@@ -228,6 +228,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MinimizeBox = false;
             this.Name = "Welcome";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Bahria University Student Profile";
             this.TopMost = true;
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
