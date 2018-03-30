@@ -17,12 +17,11 @@ namespace VP_Assignment_2
         {
             InitializeComponent();
         }
-        //Variables Decalaration
-        static filePath passPath = new filePath();  //path class
-        static string getFileData = passPath.mainPath;  //main file
-        static string storeAttendance = passPath.attendancePath;    //attendance file
-        StreamReader file = new StreamReader(getFileData);      //read file Data
-        StreamWriter write = File.AppendText(storeAttendance);  //Writing attendance file
+        static filePath obj = new filePath();
+        static string recordFile = obj.mainPath;
+        static string attFile = obj.attendancePath;
+        StreamReader file = new StreamReader(recordFile);      //read file Data
+        StreamWriter write = File.AppendText(attFile);  //Writing attendance file
         string id, name, sem, gpa, uni, dept;
         string line="";
         private void button1_Click(object sender, EventArgs e)
@@ -59,12 +58,12 @@ namespace VP_Assignment_2
                             write.WriteLine("Absent");
                         }
                         i++;
+                       write.Flush();
                         return;
                     }
                 }
                 else
                 {
-                    this.Dispose();
                     showMsg.Text = "Record not found for semester " + semester;
                 }
             }

@@ -48,7 +48,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Times New Roman", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.label2.Location = new System.Drawing.Point(79, 59);
+            this.label2.Location = new System.Drawing.Point(77, 61);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(242, 31);
             this.label2.TabIndex = 1;
@@ -57,7 +57,7 @@
             // readSemester
             // 
             this.readSemester.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.readSemester.Location = new System.Drawing.Point(418, 150);
+            this.readSemester.Location = new System.Drawing.Point(416, 152);
             this.readSemester.Name = "readSemester";
             this.readSemester.Size = new System.Drawing.Size(182, 35);
             this.readSemester.TabIndex = 6;
@@ -77,7 +77,7 @@
             this.button1.BackColor = System.Drawing.SystemColors.Desktop;
             this.button1.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button1.Location = new System.Drawing.Point(418, 213);
+            this.button1.Location = new System.Drawing.Point(416, 215);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(186, 75);
             this.button1.TabIndex = 8;
@@ -90,7 +90,7 @@
             this.groupBox1.Controls.Add(this.radioButton2);
             this.groupBox1.Controls.Add(this.radioButton1);
             this.groupBox1.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(400, 316);
+            this.groupBox1.Location = new System.Drawing.Point(398, 318);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(200, 100);
             this.groupBox1.TabIndex = 22;
@@ -130,7 +130,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(40, 153);
+            this.label3.Location = new System.Drawing.Point(38, 155);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(364, 26);
             this.label3.TabIndex = 25;
@@ -140,7 +140,7 @@
             // 
             this.showMsg.AutoSize = true;
             this.showMsg.Font = new System.Drawing.Font("Times New Roman", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.showMsg.Location = new System.Drawing.Point(51, 292);
+            this.showMsg.Location = new System.Drawing.Point(49, 294);
             this.showMsg.Name = "showMsg";
             this.showMsg.Size = new System.Drawing.Size(18, 26);
             this.showMsg.TabIndex = 24;
@@ -150,7 +150,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::VP_Assignment_2.Properties.Resources.close_128;
-            this.pictureBox1.Location = new System.Drawing.Point(550, 0);
+            this.pictureBox1.Location = new System.Drawing.Point(548, 2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(121, 121);
             this.pictureBox1.TabIndex = 26;
