@@ -114,7 +114,7 @@
             // showMsg
             // 
             this.showMsg.AutoSize = true;
-            this.showMsg.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.showMsg.Font = new System.Drawing.Font("Times New Roman", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.showMsg.ForeColor = System.Drawing.Color.Black;
             this.showMsg.Location = new System.Drawing.Point(145, 234);
             this.showMsg.Name = "showMsg";

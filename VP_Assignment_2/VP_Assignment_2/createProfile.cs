@@ -53,7 +53,7 @@ namespace VP_Assignment_2
                         write.WriteLine(smstr);
                         write.WriteLine(getCGPA);
                         write.Flush();
-                        error.Text = ("Your data has been successfully inserted in ");
+                        error.Text = ("Your data has been successfully stored!");
                         write.Close();
                     }
                     else
@@ -87,7 +87,8 @@ namespace VP_Assignment_2
             {
                 if (studentID == line)
                 {
-                    MessageBox.Show("Please enter unique id");
+                    id.Text = null;
+                    MessageBox.Show("PLEASE ENTER UNIQUE ID!", "ID ALREADY IN USE!", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
         }

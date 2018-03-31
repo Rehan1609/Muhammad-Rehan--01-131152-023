@@ -173,9 +173,9 @@
             // error
             // 
             this.error.AutoSize = true;
-            this.error.Font = new System.Drawing.Font("Times New Roman", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.error.ForeColor = System.Drawing.Color.Red;
-            this.error.Location = new System.Drawing.Point(33, 430);
+            this.error.Font = new System.Drawing.Font("Times New Roman", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.error.ForeColor = System.Drawing.Color.Black;
+            this.error.Location = new System.Drawing.Point(100, 438);
             this.error.Name = "error";
             this.error.Size = new System.Drawing.Size(15, 22);
             this.error.TabIndex = 13;
@@ -186,7 +186,7 @@
             this.createBtn.BackColor = System.Drawing.SystemColors.Desktop;
             this.createBtn.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.createBtn.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.createBtn.Location = new System.Drawing.Point(197, 452);
+            this.createBtn.Location = new System.Drawing.Point(211, 468);
             this.createBtn.Name = "createBtn";
             this.createBtn.Size = new System.Drawing.Size(156, 46);
             this.createBtn.TabIndex = 14;

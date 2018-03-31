@@ -39,6 +39,7 @@ namespace VP_Assignment_2
                 }
                 else
                 {
+                    viewList.Hide();
                     viewList.Text = "No Record Found for semester " + semester;
                 }
             }

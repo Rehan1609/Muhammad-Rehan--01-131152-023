@@ -51,7 +51,7 @@ namespace VP_Assignment_2
                 }
                 else
                 {
-                    showMsg.Text = "Record not found! Also check your file path";
+                    showMsg.Text = "Record not found!";
                 }
             }
             button1.Visible = false;
@@ -90,7 +90,7 @@ namespace VP_Assignment_2
                 }
                 else
                 {
-                    showMsg.Text = "Record not found! Also check your file path";
+                    showMsg.Text = "Record not found!";
                 }
             }
             button2.Hide();
@@ -129,7 +129,7 @@ namespace VP_Assignment_2
                 }
                 else
                 {
-                    showMsg.Text = "Record not found! Also check your file path";
+                    showMsg.Text = "Record not found!";
                 }
             }
         }

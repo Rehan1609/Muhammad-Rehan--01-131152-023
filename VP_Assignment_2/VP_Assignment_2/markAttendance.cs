@@ -64,7 +64,7 @@ namespace VP_Assignment_2
                 }
                 else
                 {
-                    showMsg.Text = "Record not found for semester " + semester;
+                    showMsg.Text = "Attendance Marked for semester " + semester;
                 }
             }
         }
