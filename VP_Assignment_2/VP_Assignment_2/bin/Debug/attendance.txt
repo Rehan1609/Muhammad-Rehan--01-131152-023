@@ -1,5 +1,9 @@
 6
 rehan
-Present6
+Present
+6
+rehan
+Absent
+6
 rehan
 Absent
