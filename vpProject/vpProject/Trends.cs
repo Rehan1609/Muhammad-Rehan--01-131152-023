@@ -10,16 +10,33 @@ using System.Windows.Forms;
 
 namespace vpProject
 {
-    public partial class Trends : Form
+    public partial class twitterTrends : Form
     {
-        public Trends()
+        public twitterTrends()
         {
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void pictureBox3_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void showtrends_Click(object sender, EventArgs e)
+        {
+            trendsList.Show();
+            suspicious.Show();
+        }
+
+        private void suspicious_Click(object sender, EventArgs e)
+        {
+            showtrends.Hide();
+            suspiciousTrends.Show();
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            Application.Restart();
         }
     }
 }

@@ -1,6 +1,6 @@
 ﻿namespace vpProject
 {
-    partial class Form1
+    partial class SelectionForm
     {
         /// <summary>
         /// Required designer variable.
@@ -29,83 +29,98 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.Trends = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.MintCream;
-            this.label1.Location = new System.Drawing.Point(82, 66);
+            this.label1.Font = new System.Drawing.Font("Times New Roman", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(231, 43);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(266, 32);
-            this.label1.TabIndex = 3;
+            this.label1.Size = new System.Drawing.Size(275, 36);
+            this.label1.TabIndex = 0;
             this.label1.Text = "Twitter Trends Spy";
             // 
-            // Trends
+            // label2
             // 
-            this.Trends.ForeColor = System.Drawing.Color.Black;
-            this.Trends.Location = new System.Drawing.Point(176, 133);
-            this.Trends.Name = "Trends";
-            this.Trends.Size = new System.Drawing.Size(138, 53);
-            this.Trends.TabIndex = 5;
-            this.Trends.Text = "Check TwitterTrends";
-            this.Trends.UseVisualStyleBackColor = true;
-            this.Trends.Click += new System.EventHandler(this.Trends_Click);
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(63, 407);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(230, 24);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "Top Ten Twitter Trends";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
-            // button2
+            // label3
             // 
-            this.button2.ForeColor = System.Drawing.Color.Black;
-            this.button2.Location = new System.Drawing.Point(30, 133);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(140, 53);
-            this.button2.TabIndex = 6;
-            this.button2.Text = "Login";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(395, 407);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(197, 24);
+            this.label3.TabIndex = 4;
+            this.label3.Text = "Show Trends Graph";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
-            // button3
+            // pictureBox3
             // 
-            this.button3.ForeColor = System.Drawing.Color.Black;
-            this.button3.Location = new System.Drawing.Point(320, 133);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(107, 53);
-            this.button3.TabIndex = 7;
-            this.button3.Text = "Show Graph";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.pictureBox3.Image = global::vpProject.Properties.Resources.close_button_2_128;
+            this.pictureBox3.Location = new System.Drawing.Point(648, 0);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(124, 119);
+            this.pictureBox3.TabIndex = 5;
+            this.pictureBox3.TabStop = false;
+            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
             // 
-            // button1
+            // pictureBox2
             // 
-            this.button1.ForeColor = System.Drawing.Color.Black;
-            this.button1.Location = new System.Drawing.Point(194, 213);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(88, 42);
-            this.button1.TabIndex = 8;
-            this.button1.Text = "Exit";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.pictureBox2.Image = global::vpProject.Properties.Resources.progress_chart_md;
+            this.pictureBox2.Location = new System.Drawing.Point(377, 137);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(286, 305);
+            this.pictureBox2.TabIndex = 3;
+            this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
-            // Form1
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::vpProject.Properties.Resources.icon_hashtags_lab_250_0b0ff9a7944956283fdc57c97cc463dc;
+            this.pictureBox1.Location = new System.Drawing.Point(53, 137);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(250, 305);
+            this.pictureBox1.TabIndex = 1;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
+            // SelectionForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Teal;
-            this.ClientSize = new System.Drawing.Size(481, 331);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.Trends);
+            this.BackColor = System.Drawing.Color.Aqua;
+            this.ClientSize = new System.Drawing.Size(771, 454);
+            this.Controls.Add(this.pictureBox3);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label1);
-            this.ForeColor = System.Drawing.Color.Aqua;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "Form1";
+            this.Name = "SelectionForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Investigate Twitter Suspicious Trends";
+            this.Text = "Choice Selection";
+            this.TransparencyKey = System.Drawing.Color.White;
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -114,11 +129,11 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button Trends;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button1;
-
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.PictureBox pictureBox3;
     }
 }
 

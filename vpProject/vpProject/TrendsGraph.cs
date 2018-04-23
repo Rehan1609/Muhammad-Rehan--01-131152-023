@@ -10,17 +10,21 @@ using System.Windows.Forms;
 
 namespace vpProject
 {
-    public partial class showGraphs : Form
+    public partial class TrendsGraph : Form
     {
-        public showGraphs()
+        public TrendsGraph()
         {
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void pictureBox3_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
 
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            Application.Restart();
+        }
     }
 }

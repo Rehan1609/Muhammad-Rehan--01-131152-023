@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
-using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -11,34 +10,45 @@ using System.Windows.Forms;
 
 namespace vpProject
 {
-    public partial class Form1 : Form
+    public partial class SelectionForm : Form
     {
-        public Form1()
+        public SelectionForm()
         {
             InitializeComponent();
         }
 
-        private void button2_Click(object sender, EventArgs e)
-        {
-            Login obj = new Login();
-            obj.Show();
-        }
-
-        private void Trends_Click(object sender, EventArgs e)
-        {
-            Trends obj = new Trends();
-            obj.Show();
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-            showGraphs obj = new showGraphs();
-            obj.Show();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
+        private void pictureBox3_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            twitterTrends obj = new twitterTrends();
+            obj.Show();
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            twitterTrends obj = new twitterTrends();
+            obj.Show();
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            TrendsGraph graph = new TrendsGraph();
+            this.Hide();
+            graph.Show();
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+            TrendsGraph graph = new TrendsGraph();
+            this.Hide();
+            graph.Show();
+        }
+
     }
 }
