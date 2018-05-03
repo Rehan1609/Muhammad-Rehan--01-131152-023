@@ -45,9 +45,9 @@
             this.label1.Font = new System.Drawing.Font("Times New Roman", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(164, 76);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(266, 26);
+            this.label1.Size = new System.Drawing.Size(250, 26);
             this.label1.TabIndex = 7;
-            this.label1.Text = "Check Suspicious Trends";
+            this.label1.Text = "Top Ten Twitter Trends";
             // 
             // trendsList
             // 
