@@ -1,0 +1,14 @@
+
+i.   Software Name: Twitter Trends Spy
+
+ii.  Working: Totally based on algortihms. Software functionality is to check suspicious
+     trends of Twitter using an Artificial Intelligence Algorithm.
+
+iii. Monitoring suspicious trends on twitter would be an AI based monitoring web application,
+	 it will monitor twitter trends.It would rank them if they are suspicious using AI based algorithm.
+
+iv.	It may contain graphs to show which trend is the most supicious based on algorithm result.
+
+v.  Developer: Muhammad Rehan
+	Department: BS(SE) 6-A
+	Enrollment: 01-131152-023

@@ -50,5 +50,29 @@ namespace vpProject
             graph.Show();
         }
 
+        private void pictureBox3_Click_1(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void pictureBox3_Click_2(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void label3_Click_1(object sender, EventArgs e)
+        {
+            TrendsGraph graph = new TrendsGraph();
+            this.Hide();
+            graph.Show();
+        }
+
+        private void label2_Click_1(object sender, EventArgs e)
+        {
+            this.Hide();
+            twitterTrends obj = new twitterTrends();
+            obj.Show();
+        }
+
     }
 }

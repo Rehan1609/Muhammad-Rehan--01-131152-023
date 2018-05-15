@@ -28,5 +28,25 @@ namespace vpProject
             obj.Show();
             this.Hide();
         }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void pictureBox3_Click_1(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void username_KeyPress(object sender, KeyPressEventArgs e)
+        {
+
+        }
+
+        private void password_KeyPress(object sender, KeyPressEventArgs e)
+        {
+
+        }
     }
 }

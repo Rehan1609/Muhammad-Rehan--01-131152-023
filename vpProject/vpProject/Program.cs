@@ -16,7 +16,7 @@ namespace vpProject
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new twitterTrends());
+            Application.Run(new adminLogin());
         }
     }
 }

@@ -1,7 +1,6 @@
 c:\users\muhammad rehan\documents\visual studio 2013\Projects\vpProject\vpProject\bin\Debug\vpProject.exe.config
 c:\users\muhammad rehan\documents\visual studio 2013\Projects\vpProject\vpProject\bin\Debug\vpProject.exe
 c:\users\muhammad rehan\documents\visual studio 2013\Projects\vpProject\vpProject\bin\Debug\vpProject.pdb
-c:\users\muhammad rehan\documents\visual studio 2013\Projects\vpProject\vpProject\obj\Debug\vpProject.csprojResolveAssemblyReference.cache
 c:\users\muhammad rehan\documents\visual studio 2013\Projects\vpProject\vpProject\obj\Debug\vpProject.Properties.Resources.resources
 c:\users\muhammad rehan\documents\visual studio 2013\Projects\vpProject\vpProject\obj\Debug\vpProject.csproj.GenerateResource.Cache
 c:\users\muhammad rehan\documents\visual studio 2013\Projects\vpProject\vpProject\obj\Debug\vpProject.exe
@@ -10,3 +9,4 @@ C:\Users\Muhammad Rehan\documents\visual studio 2013\Projects\vpProject\vpProjec
 C:\Users\Muhammad Rehan\documents\visual studio 2013\Projects\vpProject\vpProject\obj\Debug\vpProject.TrendsGraph.resources
 C:\Users\Muhammad Rehan\documents\visual studio 2013\Projects\vpProject\vpProject\obj\Debug\vpProject.twitterTrends.resources
 C:\Users\Muhammad Rehan\Documents\Visual Studio 2013\Projects\vpProject\vpProject\obj\Debug\vpProject.adminLogin.resources
+C:\Users\Muhammad Rehan\Documents\Visual Studio 2013\Projects\vpProject\vpProject\obj\Debug\vpProject.csprojResolveAssemblyReference.cache

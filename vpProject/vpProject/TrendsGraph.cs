@@ -24,7 +24,19 @@ namespace vpProject
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            Application.Restart();
+            SelectionForm obj = new SelectionForm();
+            this.Hide();
+            obj.Show();
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void pictureBox3_Click_1(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

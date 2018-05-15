@@ -121,22 +121,31 @@
   <data name="progress-chart-md" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\progress-chart-md.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="825416418" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\825416418.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="1Twitter-Spy" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\1Twitter-Spy.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icon-hashtags-lab-250-0b0ff9a7944956283fdc57c97cc463dc" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icon-hashtags-lab-250-0b0ff9a7944956283fdc57c97cc463dc.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="twitter-spy-bird.630" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\twitter-spy-bird.630.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="twitter-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\twitter-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="shutdown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shutdown.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon-hashtags-lab-250-0b0ff9a7944956283fdc57c97cc463dc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-hashtags-lab-250-0b0ff9a7944956283fdc57c97cc463dc.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="close_button_2-128" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\close_button_2-128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="twitter-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\twitter-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="home-button-fix-icon-ageek-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\home-button-fix-icon-ageek-1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="login_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\login_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

@@ -34,18 +34,18 @@ namespace vpProject
 
         private void showtrends_Click(object sender, EventArgs e)
         {
-            //string fileNameAndPath = "D:/rehan.txt";
-            //StreamWriter writeToFile = new StreamWriter(fileNameAndPath);
+            //trendsList.Show();
+            //suspicious.Show();
             WebClient web = new WebClient();
-            Stream stream = web.OpenRead("https://trends24.in/pakistan/");
+            Stream stream = web.OpenRead("https://trends24.in/");
             using (StreamReader reader = new StreamReader(stream))
-            {
-                String text = reader.ReadToEnd();
-                MessageBox.Show("Data stored in local Directory");
+              {
+                    String text = reader.ReadToEnd();
 
-                richTextBox1.Text = "" + text;
-            }
-           // writeToFile.Close();
+                    richTextBox1.Text = "" + stream;
+                }
+           // ________________________________________________
+            
         }
 
         private void suspicious_Click(object sender, EventArgs e)
@@ -56,7 +56,19 @@ namespace vpProject
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            Application.Restart();
+            SelectionForm obj = new SelectionForm();
+            this.Hide();
+            obj.Show();
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void pictureBox3_Click_1(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }
