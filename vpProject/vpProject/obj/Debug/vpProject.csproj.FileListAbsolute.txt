@@ -9,7 +9,6 @@ C:\Users\Muhammad Rehan\documents\visual studio 2013\Projects\vpProject\vpProjec
 C:\Users\Muhammad Rehan\documents\visual studio 2013\Projects\vpProject\vpProject\obj\Debug\vpProject.TrendsGraph.resources
 C:\Users\Muhammad Rehan\Documents\Visual Studio 2013\Projects\vpProject\vpProject\obj\Debug\vpProject.adminLogin.resources
 C:\Users\Muhammad Rehan\Documents\Visual Studio 2013\Projects\vpProject\vpProject\obj\Debug\vpProject.csprojResolveAssemblyReference.cache
-C:\Users\Muhammad Rehan\documents\visual studio 2013\Projects\vpProject\vpProject\obj\Debug\vpProject.trends.resources
 C:\Users\Muhammad Rehan\documents\visual studio 2013\Projects\vpProject\vpProject\bin\Debug\Common.Logging.Core.dll
 C:\Users\Muhammad Rehan\documents\visual studio 2013\Projects\vpProject\vpProject\bin\Debug\Common.Logging.dll
 C:\Users\Muhammad Rehan\documents\visual studio 2013\Projects\vpProject\vpProject\bin\Debug\Spring.Rest.dll
@@ -25,3 +24,15 @@ C:\Users\Muhammad Rehan\documents\visual studio 2013\Projects\vpProject\vpProjec
 C:\Users\Muhammad Rehan\documents\visual studio 2013\Projects\vpProject\vpProject\bin\Debug\Spring.Social.Core.xml
 C:\Users\Muhammad Rehan\documents\visual studio 2013\Projects\vpProject\vpProject\bin\Debug\Spring.Social.Twitter.pdb
 C:\Users\Muhammad Rehan\documents\visual studio 2013\Projects\vpProject\vpProject\bin\Debug\Spring.Social.Twitter.xml
+C:\Users\Muhammad Rehan\Documents\Visual Studio 2013\Projects\vpProject\vpProject\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Muhammad Rehan\Documents\Visual Studio 2013\Projects\vpProject\vpProject\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Muhammad Rehan\Documents\Visual Studio 2013\Projects\vpProject\vpProject\bin\Debug\System.Web.Http.dll
+C:\Users\Muhammad Rehan\Documents\Visual Studio 2013\Projects\vpProject\vpProject\bin\Debug\System.Web.Http.WebHost.dll
+C:\Users\Muhammad Rehan\Documents\Visual Studio 2013\Projects\vpProject\vpProject\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Muhammad Rehan\Documents\Visual Studio 2013\Projects\vpProject\vpProject\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\Muhammad Rehan\Documents\Visual Studio 2013\Projects\vpProject\vpProject\bin\Debug\System.Web.Http.xml
+C:\Users\Muhammad Rehan\Documents\Visual Studio 2013\Projects\vpProject\vpProject\bin\Debug\System.Web.Http.WebHost.xml
+C:\Users\Muhammad Rehan\Documents\Visual Studio 2013\Projects\vpProject\vpProject\obj\Debug\vpProject.TwitterTrends.resources
+C:\Users\Muhammad Rehan\Documents\Visual Studio 2013\Projects\vpProject\vpProject\bin\Debug\Supremes.dll
+C:\Users\Muhammad Rehan\Documents\Visual Studio 2013\Projects\vpProject\vpProject\bin\Debug\Supremes.pdb
+C:\Users\Muhammad Rehan\Documents\Visual Studio 2013\Projects\vpProject\vpProject\bin\Debug\Supremes.xml

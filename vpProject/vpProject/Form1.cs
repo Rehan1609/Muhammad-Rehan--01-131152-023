@@ -25,14 +25,14 @@ namespace vpProject
         private void pictureBox1_Click(object sender, EventArgs e)
         {
             this.Hide();
-            trends obj = new trends();
+            TwitterTrends obj = new TwitterTrends();
             obj.Show();
         }
 
         private void label2_Click(object sender, EventArgs e)
         {
             this.Hide();
-            trends obj = new trends();
+            TwitterTrends obj = new TwitterTrends();
             obj.Show();
         }
 
@@ -70,7 +70,7 @@ namespace vpProject
         private void label2_Click_1(object sender, EventArgs e)
         {
             this.Hide();
-            trends obj = new trends();
+            TwitterTrends obj = new TwitterTrends();
             obj.Show();
         }
 

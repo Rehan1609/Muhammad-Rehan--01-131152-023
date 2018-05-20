@@ -64,7 +64,7 @@
             // pictureBox3
             // 
             this.pictureBox3.Image = global::vpProject.Properties.Resources.shutdown;
-            this.pictureBox3.Location = new System.Drawing.Point(536, -4);
+            this.pictureBox3.Location = new System.Drawing.Point(536, -29);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(154, 149);
             this.pictureBox3.TabIndex = 10;
