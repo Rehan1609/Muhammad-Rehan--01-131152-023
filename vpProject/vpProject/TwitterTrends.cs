@@ -11,9 +11,13 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Spring.Social.Twitter;
 using System.Net.WebSockets;
+using HtmlAgilityPack;
+using DynamicHtml;
 using System.IO;
 using System.Net;
 using Supremes;
+using System.Text.RegularExpressions;
+using Supremes.Nodes;
 
 namespace vpProject
 {
@@ -23,63 +27,103 @@ namespace vpProject
         {
             InitializeComponent();
         }
-
-        private void showButton_Click(object sender, EventArgs e)
+        public string[] customLink = {"https://twitter.com/hashtag/ENGvPAK?src=tren","https://twitter.com/hashtag/UCLfinal?src=tren",
+                                       "https://twitter.com/search?q=Lords&src=tren","https://twitter.com/search?q=England&src=tren",
+                                       "https://twitter.com/hashtag/CSKvSRH?src=tren","https://twitter.com/search?q=Liverpool&src=tren",
+                                       "https://twitter.com/hashtag/%D9%88%D8%B2%DB%8C%D8%B1%D8%A7%D8%B9%D8%B8%D9%85_%D8%B9%D9%85%D8%B1%D8%A7%D9%86_%D8%AE%D8%A7%D9%86?src=tren",
+                                       "https://twitter.com/search?q=%22kp%20assembly%22&src=tren","https://twitter.com/search?q=%22mohammad%20abbas%22&src=tren"};
+        public string url = "https://twitter.com/search?q='*?'";
+        private void TwitterTrends_Load(object sender, EventArgs e)
         {
-            trendsList.Show();
-            SuspiciousButton.Show();
-            String consumerKey = "BvdjSAbD26aSNRDN7FbiTAsDV"; // The application's consumer key
-            String consumerSecret = "N7Y93ojNZFmmkbFfVhAokF4L79PeVoOR4hEUiRa5PAvFeOfT2O"; // The application's consumer secret
-            String accessToken = "3311888538-kQwVCbPsHbOOwmj3TEbgNGp9iitIoDwcUMDOPw6"; // The access token granted after OAuth authorization
-            String accessTokenSecret = "p2rU9ERjtCEflCNp5LVvLrZF2Gvp1Bt7mlZBWV7Jg8viD"; // The access token secret granted after OAuth authorization
-            TwitterTemplate twitterResponse = new TwitterTemplate(consumerKey, consumerSecret, accessToken, accessTokenSecret);
-            string clientToken = "3311888538-kQwVCbPsHbOOwmj3TEbgNGp9iitIoDwcUMDOPw6";
-            TwitterTemplate twitterClient = new TwitterTemplate(clientToken, "", "", "");
-            string access_token = "";
-            var post = WebRequest.Create("https://api.twitter.com/oauth2/token") as HttpWebRequest;
-            post.Method = "POST";
-            post.ContentType = "application/x-www-form-urlencoded";
-            post.Headers[HttpRequestHeader.Authorization] = "Basic ";
-            var reqbody = Encoding.UTF8.GetBytes("grant_type=client_credentials");
-            post.ContentLength = reqbody.Length;
-            using (var req = post.GetRequestStream())
-            {
-                req.Write(reqbody, 0, reqbody.Length);
-            }
             try
             {
-                string respbody = null;
-                using (var resp = post.GetResponse().GetResponseStream()) //request will be sent.
-                {
-                    var respR = new StreamReader(resp);
-                    respbody = respR.ReadToEnd();
-                }
-                //TODO use a library to parse json
-                access_token = respbody.Substring(respbody.IndexOf("access_token\":\"") + "access_token\":\"".Length, respbody.IndexOf("\"}") - (respbody.IndexOf("access_token\":\"") + "access_token\":\"".Length));
+                trend1.Text = GrabTrends.scrapTrends(trend1.Text);
+                trend2.Text = GrabTrends.scrapTrend2(trend2.Text);
+                trend3.Text = GrabTrends.scrapTrend3(trend3.Text);
+                trend4.Text = GrabTrends.scrapTrend4(trend4.Text);
+                trend5.Text = GrabTrends.scrapTrend5(trend5.Text);
+                trend6.Text = GrabTrends.scrapTrend6(trend6.Text);
+                trend7.Text = GrabTrends.scrapTrend7(trend7.Text);
+                trend8.Text = GrabTrends.scrapTrend8(trend8.Text);
+                trend9.Text = GrabTrends.scrapTrend9(trend9.Text);
+                trend10.Text = GrabTrends.scrapTrend10(trend10.Text);
             }
-            catch //if credentials are not valid (403 error)
+            catch (Exception)
             {
-                //TODO
+                MessageBox.Show("Unable to Restore Trends!");
             }
-            //------------------------------------------------------------
+        }
+
+        private void webBrowser2_DocumentCompleted(object sender, WebBrowserDocumentCompletedEventArgs e)
+        {
             
         }
 
-        private void pictureBox3_Click(object sender, EventArgs e)
+        private void trend1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            Application.Exit();
+            webBrowser2.Show();
+            webBrowser2.Navigate(customLink[0]);
         }
 
-        private void Home_Click(object sender, EventArgs e)
+        private void trend2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            SelectionForm obj = new SelectionForm();
-            this.Hide();
+            webBrowser2.Show();
+            webBrowser2.Navigate(customLink[1]);
+        }
+
+        private void trend3_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            webBrowser2.Show();
+            webBrowser2.Navigate(customLink[2]);
+        }
+
+        private void trend4_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            webBrowser2.Show();
+            webBrowser2.Navigate(customLink[3]);
+        }
+
+        private void trend5_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            webBrowser2.Show();
+            webBrowser2.Navigate(customLink[4]);
+        }
+
+        private void trend6_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            webBrowser2.Show();
+            webBrowser2.Navigate(customLink[5]);
+        }
+
+        private void trend7_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            webBrowser2.Show();
+            webBrowser2.Navigate(customLink[16]);
+        }
+
+        private void trend8_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            webBrowser2.Show();
+            webBrowser2.Navigate(customLink[7]);
+        }
+
+        private void trend9_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            webBrowser2.Show();
+            webBrowser2.Navigate(customLink[8]);
+        }
+
+        private void trend10_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            webBrowser2.Show();
+            webBrowser2.Navigate(customLink[9]);
+        }
+
+        private void spamFormSwitch_Click(object sender, EventArgs e)
+        {
+            SpamTrends obj = new SpamTrends();
             obj.ShowDialog();
-        }
-
-        private void SuspiciousButton_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
+

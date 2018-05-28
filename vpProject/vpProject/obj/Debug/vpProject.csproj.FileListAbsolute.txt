@@ -5,10 +5,6 @@ c:\users\muhammad rehan\documents\visual studio 2013\Projects\vpProject\vpProjec
 c:\users\muhammad rehan\documents\visual studio 2013\Projects\vpProject\vpProject\obj\Debug\vpProject.csproj.GenerateResource.Cache
 c:\users\muhammad rehan\documents\visual studio 2013\Projects\vpProject\vpProject\obj\Debug\vpProject.exe
 c:\users\muhammad rehan\documents\visual studio 2013\Projects\vpProject\vpProject\obj\Debug\vpProject.pdb
-C:\Users\Muhammad Rehan\documents\visual studio 2013\Projects\vpProject\vpProject\obj\Debug\vpProject.SelectionForm.resources
-C:\Users\Muhammad Rehan\documents\visual studio 2013\Projects\vpProject\vpProject\obj\Debug\vpProject.TrendsGraph.resources
-C:\Users\Muhammad Rehan\Documents\Visual Studio 2013\Projects\vpProject\vpProject\obj\Debug\vpProject.adminLogin.resources
-C:\Users\Muhammad Rehan\Documents\Visual Studio 2013\Projects\vpProject\vpProject\obj\Debug\vpProject.csprojResolveAssemblyReference.cache
 C:\Users\Muhammad Rehan\documents\visual studio 2013\Projects\vpProject\vpProject\bin\Debug\Common.Logging.Core.dll
 C:\Users\Muhammad Rehan\documents\visual studio 2013\Projects\vpProject\vpProject\bin\Debug\Common.Logging.dll
 C:\Users\Muhammad Rehan\documents\visual studio 2013\Projects\vpProject\vpProject\bin\Debug\Spring.Rest.dll
@@ -36,3 +32,12 @@ C:\Users\Muhammad Rehan\Documents\Visual Studio 2013\Projects\vpProject\vpProjec
 C:\Users\Muhammad Rehan\Documents\Visual Studio 2013\Projects\vpProject\vpProject\bin\Debug\Supremes.dll
 C:\Users\Muhammad Rehan\Documents\Visual Studio 2013\Projects\vpProject\vpProject\bin\Debug\Supremes.pdb
 C:\Users\Muhammad Rehan\Documents\Visual Studio 2013\Projects\vpProject\vpProject\bin\Debug\Supremes.xml
+C:\Users\Muhammad Rehan\Documents\Visual Studio 2013\Projects\vpProject\vpProject\bin\Debug\DynamicHtml.dll
+C:\Users\Muhammad Rehan\Documents\Visual Studio 2013\Projects\vpProject\vpProject\bin\Debug\HtmlAgilityPack.dll
+C:\Users\Muhammad Rehan\Documents\Visual Studio 2013\Projects\vpProject\vpProject\bin\Debug\TextDiscovery.dll
+C:\Users\Muhammad Rehan\Documents\Visual Studio 2013\Projects\vpProject\vpProject\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\Muhammad Rehan\Documents\Visual Studio 2013\Projects\vpProject\vpProject\bin\Debug\HtmlAgilityPack.xml
+C:\Users\Muhammad Rehan\Documents\Visual Studio 2013\Projects\vpProject\vpProject\bin\Debug\TextDiscovery.HtmlAgilityPack.dll
+C:\Users\Muhammad Rehan\Documents\Visual Studio 2013\Projects\vpProject\vpProject\bin\Debug\Configuration.dll
+C:\Users\Muhammad Rehan\Documents\Visual Studio 2013\Projects\vpProject\vpProject\obj\Debug\vpProject.csprojResolveAssemblyReference.cache
+C:\Users\Muhammad Rehan\Documents\Visual Studio 2013\Projects\vpProject\vpProject\obj\Debug\vpProject.SpamTrends.resources
